@@ -14,7 +14,7 @@ namespace appMedika
     {
         SqlConnection con = new SqlConnection("Initial catalog=BD_DEAS1_MEDIKA;data source=.;uid=sa;pwd=Desarrollo2019"); //Cambiar uid y pwd.
         private SqlCommandBuilder cmb; //Otro cambio.
-        public DataSet ds = new DataSet();
+        public DataSet ds = new DataSet(); //Un cambio más.
         public SqlDataAdapter da;
         public SqlCommand comando;
         public void conectar()
